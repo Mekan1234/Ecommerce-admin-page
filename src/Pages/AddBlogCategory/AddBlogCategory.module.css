@@ -1,0 +1,10 @@
+.addBlogCategoryTitle {
+  margin-bottom: 30px;
+  color: var(--color-212529);
+  font-size: 20px;
+  font-family: Roboto !important;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}

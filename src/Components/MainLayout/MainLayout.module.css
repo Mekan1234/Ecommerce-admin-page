@@ -1,0 +1,265 @@
+.mainLayoutWrapper {
+  position: relative;
+  display: flex;
+  background: #f5f5f5;
+}
+.layoutBody {
+  position: relative;
+  flex-grow: 1;
+}
+.sidebarBlock {
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+.sidebarBlock::-webkit-scrollbar {
+  display: none;
+}
+.mainLayoutWrapperWithSmallSidebar {
+  background: #f5f5f5;
+}
+
+.sidebar {
+  background: #001529;
+}
+.BigSidebar {
+  width: 250px !important;
+  transition: 0.3s;
+}
+.smallSidebar {
+  width: 80px !important;
+  transition: 0.3s;
+}
+.logoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  margin: 0;
+  background: #ffd333;
+}
+.logoTitle {
+  color: white;
+  margin: auto;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.headerRightElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.notification {
+  position: relative;
+}
+.notification > svg {
+  font-size: 28px;
+}
+.notificationNumber {
+  position: absolute;
+  top: -7px;
+  right: 2px;
+  background: rgb(244, 178, 35);
+  border-radius: 100%;
+  padding: 3px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.personalDates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerImage {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.headerImage img {
+  width: 100%;
+  height: auto;
+}
+.name {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.account {
+  font-size: 13px;
+}
+
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 5px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.innerItems {
+  padding-right: 5px;
+  overflow: hidden;
+}
+.innerItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  border-radius: 6px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.innerItem:last-child {
+  margin-bottom: 10px;
+}
+.smallSidebarIcon {
+  display: inline-block;
+  margin: 0 auto;
+}
+.itemIcon > svg {
+  fill: #ffffffa6;
+  stroke: #ffffffa6;
+  font-size: 20px;
+}
+.smallSidebarIcon > svg {
+  fill: #ffffffa6;
+  stroke: #ffffffa6;
+  font-size: 20px;
+}
+.itemName {
+  font-size: 14px;
+  color: #ffffffa6;
+}
+.sidebarItem:hover .itemName {
+  color: #fff;
+}
+.sidebarItem:hover .itemIcon > svg {
+  fill: #fff;
+  stroke: #fff;
+}
+.sidebarItem:hover .smallSidebarIcon > svg {
+  stroke: #fff;
+  fill: #fff;
+}
+.active {
+  background: #1677ff;
+}
+.active .itemName,
+.active > span {
+  color: #fff;
+}
+.active .itemIcon > svg,
+.active > svg {
+  fill: #fff;
+  stroke: #fff;
+}
+.active .smallSidebarIcon > svg {
+  fill: #fff;
+  stroke: #fff;
+}
+.header {
+  padding: 10px;
+}
+.headerIcon {
+  padding: 10px;
+  cursor: pointer;
+}
+.headerIcon:hover {
+  background: #f5f5f5;
+}
+.headerIcon > svg {
+  font-size: 25px;
+}
+.itemNameBlock {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemNameBlock .itemNameBlockIcon {
+  transition: all 0.3s ease;
+}
+.itemNameBlock .itemNameBlockIcon > svg {
+  fill: #ffffffa6;
+  stroke: #ffffffa6;
+}
+.dropdown .itemNameBlock .itemNameBlockIcon {
+  transition: all 0.3s ease;
+  transform: rotate(180deg);
+}
+.active .itemNameBlock .itemNameBlockIcon > svg {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+.sidebarItem:hover .itemNameBlock .itemNameBlockIcon > svg {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.sidebarItemBlock {
+  position: relative;
+}
+.dropdownMenu {
+  overflow: hidden;
+}
+.disableDropdown {
+  transition: 0.3s;
+  height: 0;
+}
+.dropdownActive {
+  transition: all 0.3s ease-in-out;
+  height: 378px;
+}
+.disableDropdown2 {
+  transition: 0.3s;
+  height: 0;
+}
+.dropdownActive2 {
+  transition: all 0.3s ease-in-out;
+  height: 195px;
+}
+.disableDropdown3 {
+  transition: 0.3s;
+  height: 0;
+}
+.dropdownActive3 {
+  transition: all 0.3s ease-in-out;
+  height: 102px;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  background: #0c0815;
+}
+li {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  color: #ffffffa6;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+li:hover {
+  color: #fff;
+}
+.main {
+  padding: 30px;
+  flex-grow: 1;
+  overflow-y: auto;
+  height: calc(100vh - 70px);
+}
+.main::-webkit-scrollbar {
+  display: none;
+}

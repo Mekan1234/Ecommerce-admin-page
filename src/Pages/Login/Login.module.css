@@ -1,0 +1,36 @@
+.loginWrapper {
+  background: #ffd333;
+  padding: 50px 0;
+  min-height: 100vh;
+}
+.loginBody {
+  margin: 100px auto 0;
+  padding: 15px;
+  border-radius: 6px;
+  width: 30%;
+  background: #fff;
+}
+.loginBody > p {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.loginButton {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border: 0;
+  background: #ffd333;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 15px;
+}
+.forgotButton {
+  text-align: right;
+  margin-bottom: 15px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}

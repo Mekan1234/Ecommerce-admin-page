@@ -1,0 +1,30 @@
+.productDescription {
+}
+.title {
+  color: var(--color-212529);
+  font-size: 28px;
+  font-family: Roboto !important;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.addProductForm {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.AddProductImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.AddProductImageBlock {
+  position: relative;
+  margin-top: 20px;
+}
+.AddProductImage {
+  width: 200px;
+  height: 200px;
+}

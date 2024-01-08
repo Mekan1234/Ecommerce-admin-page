@@ -1,0 +1,31 @@
+.addBlockInput {
+  margin-top: 30px;
+}
+.title {
+  color: var(--color-212529);
+  font-size: 28px;
+  font-family: Roboto !important;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.addProductForm {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.AddProductImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.AddProductImageBlock {
+  position: relative;
+}
+.AddProductImage {
+  width: 200px;
+  height: 200px;
+}

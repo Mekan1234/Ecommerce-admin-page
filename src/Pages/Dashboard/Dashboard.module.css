@@ -1,0 +1,160 @@
+.dashBoardBody {
+  height: 100%;
+}
+.subTitle {
+  font-size: 24px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+.desc {
+  font-size: 14px;
+  font-family: Roboto !important;
+  color: var(--color-828599);
+}
+.dashboardTitle {
+  margin-bottom: 40px;
+  color: var(--color-212529);
+  font-size: 28px;
+  font-family: Roboto !important;
+}
+.title {
+  color: var(--color-212529);
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-family: Roboto !important;
+}
+.dashboardCards {
+  display: flex;
+  gap: 30px;
+}
+
+.dashboardCart {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.cardRightElements {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: end;
+}
+.cardRightElements h6 {
+  flex-grow: 1;
+}
+.dashboardCart h4 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.cartLeftElements h4 {
+  margin-top: 10px;
+}
+.green {
+  color: var(--color-47ad24);
+  font-family: Roboto !important;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.red {
+  color: var(--color-212529);
+  font-family: Roboto !important;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.charts {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+.dashboardBarChart {
+  flex-grow: 1;
+}
+.dashboardBar {
+  height: 290px;
+}
+.recentRow {
+  flex-grow: 1;
+}
+
+.recentRow > h3 {
+  margin-bottom: 30px;
+}
+.recentRowTable {
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+table {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  border-spacing: 0px;
+}
+thead {
+  background-color: #fafafa;
+}
+thead::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  right: 0;
+  left: 0;
+  background: #f0f0f0;
+}
+
+th {
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  margin-right: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+td {
+  padding: 14px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2f4858;
+}
+tbody > tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+tbody > tr:hover {
+  background: #fafafa;
+}
+.pages {
+}
+.page {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+  margin-top: 10px;
+  align-items: center;
+  gap: 15px;
+}
+.pageNumber {
+  display: inline-block;
+  line-height: 30px !important;
+  padding: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.activeNumber {
+  border: 1px solid #4096ff;
+  font-weight: 500;
+}
+.pageNumbers {
+  display: flex;
+  gap: 10px;
+}
